@@ -1,0 +1,25 @@
+<ion-header no-border>
+  <ion-navbar transparent>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="login-content">
+  <div class="icon-login">
+    <ion-icon name="person" color="primary"></ion-icon>
+  </div>
+  <ion-item>
+    <ion-label floating>Name</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label floating>Password</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+  <div style="height: 10px;"></div>
+  <p><a (click)="goReset()" style="color: #f4f4f4;">Forgot Password ?</a></p>
+  <div class="login-button">
+    <button ion-button block (click)="goHome()">Login</button>
+  </div>
+  <p>OR</p>
+  <button ion-button clear full class="signup-button" (click)="goSignup()">Signup</button>
+</ion-content>

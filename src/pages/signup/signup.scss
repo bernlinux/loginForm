@@ -1,0 +1,22 @@
+page-signup {
+    .signup-content{
+        background-image: url("../assets/img/1.jpg");
+    }
+    ion-item{
+        background: transparent !important;
+    }
+    .item-md{
+        color: #f4f4f4;
+    }
+    .signup-icon{
+        font-size: 5em;
+        text-align: center;
+    }
+    span{
+        color: #f4f4f4;
+    }
+    .signup-button{
+        margin-top: 10px;
+    }
+
+}
